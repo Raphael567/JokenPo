@@ -1,7 +1,7 @@
 # Pam-Classes
 repositório destinado as aulas de PAM
 
-PARTE ESCRITA PRÉ-AVALIAÇÂO DE PAM:
+PARTE ESCRITA AVALIAÇÃO DE PAM:
 
 1. PARA QUE SERVE O MVVM?
 
@@ -164,5 +164,10 @@ ________________________________________________________________
 1 - Antes de atualizar a propriedade, verificar se o novo valor é diferente do valor atual para evitar notificações desnecessárias.
 
 2 - Utilizar campos privados para armazenar os valores das propriedades e propriedades públicas para expô-los, garantindo uma correta gestão das mudanças.
+
+3 - Verificar se as bibliotecas foram devidamente importadas e instaladas e se a classe está do seguinte modelo:
+```
+public partial class CoinViewModel : ObservableObject
+```
 
 Esses cuidados asseguram que as propriedades observáveis funcionem corretamente no padrão MVVM, proporcionando uma atualização eficiente da interface de usuário e facilitando a manutenção e a testabilidade do código
