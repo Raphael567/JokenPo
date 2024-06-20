@@ -1,5 +1,5 @@
-# Pam-Classes
-repositório destinado as aulas de PAM
+# JokenPo
+repositório destinado a avaliação de PAM
 
 PARTE ESCRITA AVALIAÇÃO DE PAM:
 
